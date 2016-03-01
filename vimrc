@@ -1,7 +1,7 @@
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Details on : https://github.com/sd65/MiniVim
 let MiniVimVersion = 1.0
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """ General options
 start " Start in Insertion mode
@@ -198,10 +198,10 @@ call CreateShortcut("C-s", ":w<enter>", "nv", "cmdInVisual", "restoreSelectionAf
 call CreateShortcut("C-s", ":w<enter>i<right>", "i", "noTrailingIInInsert")
 
 " Home - Go To Begin
-call CreateShortcut("Home", "gg", "inv")
+call CreateShortcut("C-Home", "gg", "inv")
 
 " End - Go To End
-call CreateShortcut("End", "G", "inv")
+call CreateShortcut("C-End", "G", "inv")
 
 " Ctrl K - Delete Line
 call CreateShortcut("C-k", "dd", "in")
@@ -213,10 +213,10 @@ call CreateShortcut("C-q", "mjyyp`jj", "n")
 call CreateShortcut("C-q", "yP", "v")
 
 " Ctrl Down - Pagedown
-call CreateShortcut("C-Down", "20j", "inv")
+" call CreateShortcut("C-Down", "20j", "inv")
 
 " Ctrl Up - Pageup
-call CreateShortcut("C-Up", "20k", "inv")
+" call CreateShortcut("C-Up", "20k", "inv")
 
 " Ctrl Right - Next Word
 call CreateShortcut("C-Right", "w", "nv")
@@ -234,8 +234,8 @@ call CreateShortcut("C-h", ":%s/", "in", "noTrailingIInInsert")
 call CreateShortcut("C-l", "ggdG", "in")
 
 " Pageup - Move up Line
-call CreateShortcut("PageUp", ":m-2<enter>", "in")
-call CreateShortcut("PageUp", "dkP", "v")
+" call CreateShortcut("PageUp", ":m-2<enter>", "in")
+" call CreateShortcut("PageUp", "dkP", "v")
 
 " Pagedown - Move down Line
 call CreateShortcut("PageDown", ":m+<enter>", "in")
