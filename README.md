@@ -131,9 +131,9 @@ Initial release.
 
 ### Rushgeo edit 1
 
-Changed home and end to move to start/end of line, not document. CTRL-home/end for document.
-Move lines up/down with ALT-up/down instead of PageUp/Down
-PageUp/Down skips 50 lines
-CTRL-up/down skips 20 lines
-Start in Normal mode by default. New tabs start in insert mode.
+Changed home and end to move to start/end of line, not document. CTRL-home/end for document.  
+Move lines up/down with ALT-up/down instead of PageUp/Down  
+PageUp/Down skips 50 lines  
+CTRL-up/down skips 20 lines  
+Start in Normal mode by default. New tabs start in insert mode.  
 - Slight bug: Normal status indicator doesn't have solid background at start.
