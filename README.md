@@ -52,8 +52,9 @@ Keys | Action | Comments
 | :---: | :---: | :---: |
 | **Moving** | **----------** | **----------**
 `Arrows` | Move the cursor | Like every editor
-`Ctrl Arrows` | Move the cursor *fast*. | Ctrl L/R skips words, Ctrl U/D skips 20 lines
-`PageUp/Down` | Skip 50 lines up/down. | Default behavior? Commented out right now.
+`Ctrl Left/Right` | Skip words |
+`Ctrl Up/Down` | Skip 20 lines | 
+`PageUp/Down` | Skip 50 lines up/down. | 
 `Ctrl A` | Go to the beginning of the line | As in Nano/Shell
 `Ctrl E` | Go to the end of the line | As in Nano/Shell, remember as **E**nd
 `Home` | Go to the beginning of line | Like every GUI text editor
@@ -132,7 +133,7 @@ Initial release.
 
 Changed home and end to move to start/end of line, not document. CTRL-home/end for document.
 Move lines up/down with ALT-up/down instead of PageUp/Down
-PageUp/Down commented out, default behavior is skipping 50 lines
+PageUp/Down skips 50 lines
 CTRL-up/down skips 20 lines
 Start in Normal mode by default. New tabs start in insert mode.
 - Slight bug: Normal status indicator doesn't have solid background at start.

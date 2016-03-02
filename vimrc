@@ -214,11 +214,11 @@ call CreateShortcut("C-q", "yP", "v")
 
 " Ctrl Down - Pagedown
 call CreateShortcut("C-Down", "20j", "inv")
-" call CreateShortcut("PageDown", "50j", "inv")
+call CreateShortcut("PageDown", "50j", "inv")
 
 " Ctrl Up - Pageup
 call CreateShortcut("C-Up", "20k", "inv")
-" call CreateShortcut("PageUp", "50k", "inv")
+call CreateShortcut("PageUp", "50k", "inv")
 
 " Ctrl Right - Next Word
 call CreateShortcut("C-Right", "w", "nv")
