@@ -1,5 +1,6 @@
 # MiniVim
 
+Forked from https://github.com/sd65/MiniVim
 Customized by rushgeo, see command table
 
 *Click to launch an Youtube video demo:*
@@ -9,7 +10,7 @@ Customized by rushgeo, see command table
 ## Goals
 
 - No bullshit default key mappings
-- Mimic Sublime Text / Shell key mappings
+- Mimic Sublime Text / Shell key mappings & GUI text editors
 - Minimal: one file, **no plugin needed!**
 
 ## Automated setup
@@ -126,3 +127,12 @@ The file is **heavily** commented. You're welcome to open, read and change what 
 ### 1.0
 
 Initial release.
+
+### Rushgeo edit 1
+
+Changed home and end to move to start/end of line, not document. CTRL-home/end for document.
+Move lines up/down with ALT-up/down instead of PageUp/Down
+PageUp/Down commented out, default behavior is skipping 50 lines
+CTRL-up/down skips 20 lines
+Start in Normal mode by default. New tabs start in insert mode.
+- Slight bug: Normal status indicator doesn't have solid background at start.
