@@ -1,5 +1,7 @@
 # MiniVim
 
+Customized by rushgeo, see command table
+
 *Click to launch an Youtube video demo:*
 
 [![A screenshot](https://raw.githubusercontent.com/sd65/MiniVim/master/Screenshot.png)](https://www.youtube.com/watch?v=n0h_3e0FfYk)
@@ -39,7 +41,7 @@ And then add `stty -ixon` to your .zshrc or .bashrc (your shell will ignore XON/
 ## How to use
 
 - **The key mappings can be used in Insert, Normal and Visual mode (yes, no need to exit Insert or Visual mode)**
-- Vim launched by default in Insert mode (yes, I mainly want to edit the file I'm opening)
+- Vim launched by in Insert mode ONLY WHEN OPENING A NEW TAB
 - The mouse can be used in Normal and Visual mode to scroll, select, change tab and more.
 - There are clear visual hints on which mode you currently using. Like pink=normal, blue=insert and green=visual...
 
@@ -49,14 +51,17 @@ Keys | Action | Comments
 | :---: | :---: | :---: |
 | **Moving** | **----------** | **----------**
 `Arrows` | Move the cursor | Like every editor
-`Ctrl Arrows` | Move the cursor *fast*. | Ctrl is a booster!
+`Ctrl Arrows` | Move the cursor *fast*. | Ctrl L/R skips words, Ctrl U/D skips 20 lines
+`PageUp/Down` | Skip 50 lines up/down. | Default behavior? Commented out right now.
 `Ctrl A` | Go to the beginning of the line | As in Nano/Shell
 `Ctrl E` | Go to the end of the line | As in Nano/Shell, remember as **E**nd
-`Home` | Go to the beginning of the file | Self explanatory
-`End` | Go to the end of the file | Self explanatory too 
+`Home` | Go to the beginning of line | Like every GUI text editor
+`End` | Go to the end of line | Like every GUI text editor
+`Ctrl Home` | Go to the beginning of the file | Like every GUI text editor
+`Ctrl End` | Go to the end of the file | Like every GUI text editor 
 | **Tabs** | **----------** | **----------**
 `Ctrl T` | Open a new tab | Like Sublime, remember as **T**ab
-`Alt Arrows` | Switch between tabs. | `Ctrl Tab` cannot be mapped...
+`Alt L/R Arrows` | Switch between tabs. | `Ctrl Tab` cannot be mapped...
 | **History** | **----------** | **----------**
 `Ctrl Z` | Undo | Like Sublime
 `Ctrl R` | Redo | Like no other, remember as **R**edo
@@ -65,8 +70,8 @@ Keys | Action | Comments
 `Shift Tab` | Unindent | Like Sublime
 `Ctrl F` | Find | Like Sublime, remember as **F**Ind
 `Ctrl H` | Search and Replace | Like Sublime
-`PageUp` | Move the line up | Usefull function so dedicated key (don't trust me ? Try it.)
-`PageDown` | Move the line down | Same as above             
+`Alt Up` | Move the line up | Usefull function so dedicated key (don't trust me ? Try it.)
+`Alt Down` | Move the line down | Same as above             
 `Ctrl K` | Delete the whole line/block | Like in nano, inspired by Sublime too, remember as **K**ill the line
 `Ctrl Q` | Duplicate the line/block | Remember as "dupli**q**ate"?
 `Ctrl L` | Clear/Delete all lines | Like in a shell, remember as C**l**ear
