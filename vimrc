@@ -213,10 +213,10 @@ call CreateShortcut("C-q", "mjyyp`jj", "n")
 call CreateShortcut("C-q", "yP", "v")
 
 " Ctrl Down - Pagedown
-" call CreateShortcut("C-Down", "20j", "inv")
+call CreateShortcut("PageDown", "20j", "inv")
 
 " Ctrl Up - Pageup
-" call CreateShortcut("C-Up", "20k", "inv")
+call CreateShortcut("PageUp", "20k", "inv")
 
 " Ctrl Right - Next Word
 call CreateShortcut("C-Right", "w", "nv")
@@ -234,12 +234,12 @@ call CreateShortcut("C-h", ":%s/", "in", "noTrailingIInInsert")
 call CreateShortcut("C-l", "ggdG", "in")
 
 " Pageup - Move up Line
-" call CreateShortcut("PageUp", ":m-2<enter>", "in")
-" call CreateShortcut("PageUp", "dkP", "v")
+call CreateShortcut("A-Up", ":m-2<enter>", "in")
+call CreateShortcut("A-Up", "dkP", "v")
 
 " Pagedown - Move down Line
-call CreateShortcut("PageDown", ":m+<enter>", "in")
-call CreateShortcut("PageDown", "dp", "v")
+call CreateShortcut("A-Down", ":m+<enter>", "in")
+call CreateShortcut("A-Down", "dp", "v")
 
 " Ctrl C - Quit
 call CreateShortcut("C-c", ":call MyQuit()<enter>", "inv", "cmdInVisual")
