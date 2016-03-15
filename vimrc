@@ -1,4 +1,5 @@
 " Details on : https://github.com/sd65/MiniVim
+" This verison from github.com/rushgeo/minivim
 let MiniVimVersion = 1.0
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
